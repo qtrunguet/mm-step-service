@@ -5,4 +5,13 @@ import trungdq.test.demo.Service.StepService;
 
 @Service
 public class StepServiceImpl implements StepService {
+    @Override
+    public Long getTotalStepsOfWeek(String userId) {
+        return null;
+    }
+
+    @Override
+    public Long getTotalStepsOfMonth(String userId) {
+        return null;
+    }
 }
